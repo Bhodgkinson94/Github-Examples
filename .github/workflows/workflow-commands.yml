@@ -1,0 +1,15 @@
+name: "workflow Commands"
+on: ['push']
+jobs:
+    my-job:
+        runs-on: ubuintu-latest
+        steps:
+          - name: "Group Logging"
+            run: 
+                echo "::group::My Group Message"
+                echo "Msg 1"
+                echo "Msg 2"
+                echo "::engroup::"
+
+
+
