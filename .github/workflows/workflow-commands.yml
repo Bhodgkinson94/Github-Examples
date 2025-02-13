@@ -2,7 +2,7 @@ name: "workflow Commands"
 on: ['push']
 jobs:
     my-job:
-        runs-on: ubuintu-latest
+        runs-on: ubuntu-latest
         steps:
           - name: "Group Logging"
             run: 
