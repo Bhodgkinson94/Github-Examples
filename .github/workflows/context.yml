@@ -1,5 +1,5 @@
 name: Context Examples
-'on':
+on:
   - push
 jobs:
   my-context:
